@@ -1,2 +1,37 @@
 @config "../tailwind.config.js";
 @import "tailwindcss";
+
+@font-face {
+  font-family: "ManulifeRegular";
+  src: url("./assets/fonts/ManulifeJHSans-Optimized.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ManulifeBold";
+  src: url("./assets/fonts/ManulifeJHSans-Optimized-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ManulifeDemiBold";
+  src: url("./assets/fonts/ManulifeJHSans-Optimized-Demibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ManulifeLight";
+  src: url("./assets/fonts/ManulifeJHSans-Optimized-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ManulifeItalic";
+  src: url("./assets/fonts/ManulifeJHSans-Optimized-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
