@@ -28,8 +28,8 @@ function App() {
 					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 				<div className="flex flex-col gap-3 sm:flex-row">
-					<a className="inline-block rounded-lg bg-greenCore-500 px-5 py-3 text-center font-ManulifeDemiBold text-white no-underline transition-colors hover:bg-greenCore-600"> Learn More </a>
-					<a className="inline-block rounded-lg border border-greenCore-500 bg-greenCore-50 px-5 py-3 text-center font-ManulifeDemiBold text-greenCore-700 no-underline transition-colors hover:bg-greenCore-100"> Get in Touch</a>
+					<a className="inline-block rounded-lg bg-greenCore-500 px-5 py-3 text-center font-ManulifeDemiBold text-white no-underline transition-colors"> Learn More </a>
+					<a className="inline-block rounded-lg border border-greenCore-500 bg-greenCore-50 px-5 py-3 text-center font-ManulifeDemiBold text-greenCore-700 no-underline transition-colors"> Get in Touch</a>
 				</div>
       </div>
 
@@ -74,7 +74,7 @@ function App() {
           <label className="mt-1 text-slate-700"> Message:</label>
           <textarea className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-slate-800 outline-none transition focus:ring-greenCore-100" id="message" rows="4" cols="40"></textarea>
 
-				<button className="mt-2 w-full rounded-xl bg-greenCore-500 px-5 py-3 font-ManulifeDemiBold text-white transition hover:-translate-y-px sm:w-fit" type="submit"> Send Message</button>
+				<button className="mt-2 w-full rounded-xl bg-greenCore-500 px-5 py-3 font-ManulifeDemiBold text-white transition sm:w-fit" type="submit"> Send Message</button>
     	</div>
 
       <footer className="px-8 pt-6 text-center text-slate-500">
