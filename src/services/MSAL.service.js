@@ -6,7 +6,6 @@ import session from "../utils/session";
 export async function getACLByMSGraph(accessToken, userId) {
     const headers = new Headers();
     const bearer = `Bearer ${accessToken}`;
-    alert('yyy')
     headers.append("Authorization", bearer);
     headers.append("ConsistencyLevel", "eventual");
     headers.append("Content-Type", "application/json");
