@@ -11,7 +11,7 @@ export async function getACLByMSGraph(accessToken, userId) {
     headers.append("Content-Type", "application/json");
 
     const groupIds = [
-        import.meta.env.VITE_REACT_APP_CONTRACT_ANALYZER_ACL_OID,
+        import.meta.env.VITE_REACT_APP_SAMPLE_ACL_OID,
     ].filter(groupId => groupId && groupId.trim() !== '');
 
     const body = JSON.stringify({
