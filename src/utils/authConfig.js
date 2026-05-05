@@ -32,5 +32,9 @@ export const loginRequest = {
   scopes: ["User.Read"],
 };
 
+export const graphConfig = {
+  graphDomain: 'https://graph.microsoft.com/v1.0/me',
+  graphParams: '/microsoft.graph.checkMemberGroups'
+};
 
 export const msalInstance = new PublicClientApplication(msalConfig);

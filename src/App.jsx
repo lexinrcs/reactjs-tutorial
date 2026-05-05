@@ -23,6 +23,8 @@ function App() {
 
 	const userProfile = JSON.parse(JSON.stringify(session.get(constants.cookie.userProfileKey)));
 	const hasRunOnce = useRef(false);
+
+
 	useEffect(() => {
 		if (inProgress !== InteractionStatus.None) return;
 
@@ -74,6 +76,7 @@ function App() {
 					}
 
 					const aclResponse = await getACLByMSGraph(response.accessToken);
+					console.log('ACL Response: ', aclResponse);
 					UpdateUserACLList(aclResponse);
 					setHasCheckedACL(true);
 
