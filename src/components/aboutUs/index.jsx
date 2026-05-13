@@ -10,7 +10,7 @@ const AboutUs = () => {
             />
 
             <h2 className="mb-3 text-2xl font-manulife-bold text-slate-800">
-                About Us
+                Bogos Binted
             </h2>
 
             <p className="mb-4 max-w-3xl leading-7 text-slate-500">
