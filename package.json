@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@manulife/mux": "^4.0.223",
+    "@manulife/mux-cds-icons": "^3.1.1",
+    "@manulife/mux-logos": "^2.1.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
